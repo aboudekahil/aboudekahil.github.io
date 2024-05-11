@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html, body, #root {
+    @apply w-full h-full p-0 m-0 bg-black;
+    /*cursor: none;*/
+    cursor: url("https://avatars.githubusercontent.com/u/53794997?size=32"), auto;
+}
+
+#root {
+    @apply text-[#ed1037];
+    /* #3fb3a2 #ed1037 */
+    background: black;
+}
+a>li {
+    transition: 1s;
+}
+
+a>li:hover {
+    cursor: url("https://avatars.githubusercontent.com/u/53794997?size=14"), auto;
+}
