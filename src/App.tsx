@@ -20,6 +20,7 @@ function App() {
         <h1>- My languages</h1>
         <ul className="flex flex-wrap w-full gap-5 font-mono font-extrabold p-4">
           <li>c++</li>
+          <li>rust</li>
           <li>java</li>
           <li>c</li>
           <li>python</li>
